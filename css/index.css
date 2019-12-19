@@ -73,6 +73,10 @@ nav a {
 
 #keyimg:hover {
   transform: rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  -ms-transform:rotate(-45deg);
+  -moz-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);  
 }
 
 .homeBox {
@@ -90,7 +94,10 @@ nav a {
   font-size: 12px;
   text-align: center;
   writing-mode: vertical-lr;
-  transform: rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  -ms-transform:rotate(-90deg) translate(-120px,-120px);
+  -moz-transform:rotate(180deg);
+  -o-transform:rotate(180deg);  
 }
 
 .resTEXT {
@@ -228,6 +235,10 @@ nav a {
   cursor: pointer;
   display: inline-block;
   transform: rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  -ms-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -o-transform:rotate(180deg);  
 }
 
 .contents .contentsText {
@@ -583,6 +594,10 @@ nav a {
   right: 8.5%;
   writing-mode: vertical-lr;
   transform: rotate(360deg);
+  -webkit-transform:rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);  
 }
 
 #evttitle1 span {
@@ -591,6 +606,12 @@ nav a {
   margin-bottom: 60%;
   margin-left: 9%;
   text-align: center;
+  writing-mode: vertical-lr;
+  transform: rotate(360deg);
+  -webkit-transform:rotate(360deg);
+  -ms-transform:rotate(90deg) translate(50px, 0);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg); 
 }
 
 
@@ -598,6 +619,10 @@ nav a {
   left: 8.5%;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  -ms-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -o-transform:rotate(180deg);  
 }
 
 #evttitle2 span {
@@ -607,6 +632,11 @@ nav a {
   margin-bottom: 20%;
   margin-left: 9%;
   text-align: center;
+  transform: rotate(360deg);
+  -webkit-transform:rotate(360deg);
+  -ms-transform:rotate(90deg) translate(50px, 0);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg); 
 }
 
 .events .imgRect {
@@ -879,6 +909,10 @@ footer p {
     left: 0;
     writing-mode: unset;
     transform: unset;
+    -webkit-transform: unset;
+    -ms-transform: rotate(360deg);
+    -moz-transform: unset;
+    -o-transform: unset;  
   }
 
   .resTEXT {
