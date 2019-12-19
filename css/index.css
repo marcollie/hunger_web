@@ -801,9 +801,6 @@ footer p {
 }
 
 @media (max-width: 1450px) {
-  body {
-    background-color: darkslategrey;
-  }
 
   header {
     height: 100%;
@@ -824,9 +821,6 @@ footer p {
 }
 
 @media (max-width: 1100px) {
-  body {
-    background-color: blueviolet;
-  }
 
   #wrap {
     width: 100%;
@@ -865,9 +859,6 @@ footer p {
 }
 
 @media (max-width: 780px) {
-  body {
-    background-color: firebrick;
-  }
 
   #wrap {
     width: 100%;
