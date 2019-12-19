@@ -854,7 +854,7 @@ footer p {
 
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1024px) {
 
   #wrap {
     width: 100%;
@@ -886,10 +886,27 @@ footer p {
   padding-left: 94%;
 
 }
+}
 
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  /* ipad */
+  .head {
+    height: 50%;
+  }
 
+  .mainName {
+    margin-top: 4%;
+  }
+}
 
-
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    /* ipad pro */
+    .head {
+      height: 50%;
+    }
 }
 
 @media (max-width: 780px) {
@@ -924,7 +941,7 @@ footer p {
 
   .mainName {
     top: 40%;
-    font-size: 60px;
+    font-size: 3.5em;
     width: 60%;
     left: 50%;
     transform: translateX(-50%);
