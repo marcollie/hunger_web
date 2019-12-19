@@ -502,6 +502,10 @@ nav a {
   transition: all ease 0.3s;
 }
 
+.menutitle ul li:first-child {
+  background-color: #E8C300;
+}
+
 .menutitle ul li:last-child {
   border-right: 0;
 }
